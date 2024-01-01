@@ -5,6 +5,7 @@ import "./App.css"
 import Home from "./pages/home"
 import About from "./pages/about"
 import User from "./pages/user"
+import Auth from "./pages/auth"
 
 const client = new ApolloClient({
   uri: "http://localhost:3000/graphql",
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/user" element={<User />} />
+          <Route path="/auth" element={<Auth />} />
         </Routes>
       </BrowserRouter>
     </ApolloProvider>
