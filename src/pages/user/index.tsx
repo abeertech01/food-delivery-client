@@ -9,8 +9,8 @@ const User: React.FC<UserProps> = () => {
     variables: {
       firstName: "John",
       lastName: "Smith",
-      email: "john4@gmail.com",
-      password: "password",
+      email: "john11@gmail.com",
+      password: "test123",
     },
   })
   const creating = async () => {
